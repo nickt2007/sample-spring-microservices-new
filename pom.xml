@@ -19,6 +19,7 @@
 		<module>department-service</module>
 		<module>organization-service</module>
 		<module>gateway-service</module>
+		<module>zipkin-server</module>
 	</modules>
 	
 </project>

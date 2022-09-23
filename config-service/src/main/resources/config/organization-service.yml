@@ -12,3 +12,13 @@ logging:
 
 springdoc:
   packagesToScan: pl.piomin.services.organization
+
+spring:
+  zipkin:
+    discovery-client-enabled: true
+    base-url: http://localhost:9061/
+    sender:
+      type: web
+  sleuth:
+    sampler:
+      probability: 1
